@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="GBK"?>
+<GoodsAmountManagementMenus>
+
+<!-- 操作货量分配-西安分拨中心 -->	
+	<operateGoodsAmountAssign>
+		<!-- 货量分配按钮 -->
+		<property name="goodsAmountAssignButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/button[2]"/>
+		<!-- 交接单号输入框 -->
+		<property name="equipmentReceiptNoInput_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/table[1]/tbody/tr[1]/td[4]/input"/>
+		<!-- 装卸时间 -->
+		<property name="handleTime_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/table[1]/tbody/tr[2]/td[8]/i/input"/>
+		<!-- 所属队名1 -->
+		<property name="belongsToTeamName1_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/div[1]/div[3]/table/tbody[2]/tr/td[1]/div/input"/>
+		<!-- 所属组名1 -->
+		<property name="belongsToGroupName1_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/div[1]/div[3]/table/tbody[2]/tr/td[2]/div/input"/>
+		<!-- 操作人姓名1 -->
+		<property name="operaterName1_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/div[1]/div[3]/table/tbody[2]/tr/td[3]/div/div/input"/>
+		<!-- 分配重量1 -->
+		<property name="assignWeight1_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/div[1]/div[3]/table/tbody[2]/tr/td[6]/div/input"/>
+		<!-- 操作区域的新增按钮 -->
+		<property name="addButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/div[1]/div[3]/table/tbody[2]/tr/td[7]/div/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 所属队名2 -->
+		<property name="belongsToTeamName2_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/div[1]/div[3]/table/tbody[2]/tr[2]/td[1]/div/input"/>
+		<!-- 所属组名2 -->
+		<property name="belongsToGroupName2_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/div[1]/div[3]/table/tbody[2]/tr[2]/td[2]/div/input"/>
+		<!-- 操作人姓名2 -->
+		<property name="operaterName2_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/div[1]/div[3]/table/tbody[2]/tr[2]/td[3]/div/div/input"/>
+		<!-- 分配重量2 -->
+		<property name="assignWeight2_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/div[1]/div[3]/table/tbody[2]/tr[2]/td[6]/div/input"/>
+		<!-- 平均分配勾选框 -->
+		<property name="averageAssign_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/table[1]/tbody/tr[3]/td[7]/span/input"/>
+		<!-- 分配确认按钮 -->
+		<property name="assignConfirm_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 分配成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="//span[contains(text(),'成功')]"/>
+	</operateGoodsAmountAssign>
+
+<!-- 操作货量查询-西安分拨中心 -->	
+	<operateGoodsAmountQuery>
+		<!-- 操作人员 -->
+		<property name="operatorName_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div[3]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr[3]/td[4]/div/input"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/button[1]"/>
+		<!-- 查出的操作人工号 -->
+		<property name="operatorJobNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[3]/div/div[2]/div[1]/div/div[1]/div[3]/table/tbody[2]/tr/td[5]/div"/>
+		<!-- 查出的装货重量 -->
+		<property name="loadWeight_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[3]/div/div[2]/div[1]/div/div[1]/div[3]/table/tbody[2]/tr/td[6]/div"/>
+		<!-- 查出的卸货重量 -->
+		<property name="unloadWeight_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[3]/div/div[2]/div[1]/div/div[1]/div[3]/table/tbody[2]/tr/td[7]/div"/>
+	</operateGoodsAmountQuery>
+
+</GoodsAmountManagementMenus>

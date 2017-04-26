@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GBK"?>
+<WpointDeclarationMenus>
+<!-- 仲裁申报-内物短少 -->
+	<arbitramentDeclaration>	
+		<!-- 内物短少 -->	
+		<property name="goodsInShort_xpath" value="//span[text()='内物短少']" />
+		<!-- 运单编号 -->
+		<property name="wayBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div/div[2]/table/tbody/tr[1]/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/input" />
+		<!-- 责任网点 -->
+		<property name="dutyWpoint_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div/div[2]/table/tbody/tr[3]/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/div/input" />
+		<!-- 提供价值证明 -->
+		<property name="valuableProve_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div/div[2]/table/tbody/tr[4]/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/i/input" />
+		<!-- 索赔金额 -->
+		<property name="claimAmount_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div/div[2]/table/tbody/tr[10]/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/input" />
+		<!-- 投诉人电话 -->
+		<property name="complainantPhone_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div/div[2]/table/tbody/tr[10]/td[2]/table/tbody/tr/td/table/tbody/tr/td[3]/input" />
+		<!-- 投诉人 -->
+		<property name="complainant_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div/div[2]/table/tbody/tr[11]/td[2]/table/tbody/tr/td/table/tbody/tr/td[3]/input" />
+		<!-- 申报理由 -->
+		<property name="declarationReason_tag" value="textarea" />
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[3]/div/div/div/div/div/div[1]/div[1]/button[5]" />
+		<!-- 保存成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span" />
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button" />
+	</arbitramentDeclaration>
+
+<!-- 申报查询 -->
+	<declarationQuery>
+		<!-- 单选框-按单号查询 -->
+		<property name="byBillNo_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="billNo_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div/div[1]/div[2]/div/div/div/div/span/button"/>
+		<!-- 申报状态 -->
+		<property name="declareStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div[3]/table/tbody[2]/tr/td[5]/div"/>
+	</declarationQuery>	
+	
+</WpointDeclarationMenus>

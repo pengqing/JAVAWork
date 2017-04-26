@@ -1,0 +1,56 @@
+<html>
+<head><meta http-equiv=Content-Type content=text/html; charset=gbk>
+<title>鲁班系统自动化测试报告</title>
+<style type='text/css' media='screen'>
+h1{font-size: 22pt;color: black;}
+.heading {margin-top: 0ex;margin-bottom: 1ex;}
+.top {margin-top: 3ex;margin-bottom: 1ex;font-size: 18pt;color: black;}
+.bottom {margin-top: 0;margin-bottom: 1ex;font-size: 14pt;color: black;}
+.middle {font-size: 14pt;color: black;}
+body {margin-left:2ex;}
+.canvas_circle {margin-left:35ex;}
+table {margin-left:4ex;}
+</style>
+</head>
+<body bgcolor=snow>
+<script type='text/javascript'>
+function drawCircle(canvasId, data_arr, color_arr, text_arr){var c = document.getElementById(canvasId);var ctx = c.getContext('2d');var radius = c.height / 2 - 20; var ox = radius + 20, oy = radius + 20;var width = 30, height = 10; var posX = ox * 2 + 20, posY = 30;
+var textX = posX + width + 5, textY = posY + 10;var startAngle = 0;var endAngle = 0;for (var i = 0; i < data_arr.length; i++){endAngle = endAngle + data_arr[i] * Math.PI * 2;ctx.fillStyle = color_arr[i];ctx.beginPath();ctx.moveTo(ox, oy);ctx.arc(ox, oy, radius, startAngle, endAngle, false);
+ctx.closePath();ctx.fill();startAngle = endAngle;ctx.fillStyle = color_arr[i];ctx.fillRect(posX, posY + 20 * i, width, height);ctx.moveTo(posX, posY + 20 * i);ctx.font = 'bold 12px 微软雅黑'; ctx.fillStyle = color_arr[i];var percent = text_arr[i] + '：' + parseFloat(100*data_arr[i]).toFixed(2) + '%';ctx.fillText(percent, textX, textY + 20 * i);}}
+function init() {var data_arr = [1.00, 0.00, 0.00];var color_arr = ['#46A3FF', 'red', 'orange'];var text_arr = ['Passed', 'Failed ', 'Skipped'];drawCircle('canvas_circle', data_arr, color_arr, text_arr);}
+window.onload = init;
+</script>
+<div class='heading'><h1>鲁班系统自动化测试报告</h1></div>
+<div class='middle'><b>Start Time:</b>&nbsp;2017-01-20 18:12:37</div>
+<div class='middle'><b>FinishTime:</b>&nbsp;2017-01-20 18:18:55</div>
+<div class='middle'><b>Totals&nbsp;:</b><font size=5 color=black><b>&nbsp;2</b></font></div>
+<div class='middle'><b>Failed&nbsp;:</b><font size=5 color=red><b>&nbsp;0</b></font></div>
+<div class='middle'><b>Passed&nbsp;:</b><font size=5 color=#46A3FF><b>&nbsp;2</b></font></div>
+<div class='bottom'><b>Skipped:</b><font size=5 color=orange><b>&nbsp;0</b></font></div>
+<canvas id='canvas_circle' class='canvas_circle' width='500' height='300' style='border:2px solid #0026ff;'></canvas>
+<div class='top'><b>Passed Lists:</b></div>
+<table border=1 width=1050 cellpadding=3 frame=border>
+<tbody>
+<tr align=center bgcolor=#46A3FF height=30><th width=100 nowrap><font color=black size=5 face=calibri>Step No.</font></th>
+<th width=550 nowrap><font color=black size=5 face=calibri>ProcessName</font></th>
+<th width=200 nowrap><font color=black size=5 face=calibri>Duration</font></th>
+<th width=200 nowrap><font color=black size=5 face=calibri>LinkToDetail</font></th>
+</tr>
+<tr>
+<td width=100 bgcolor=F0F0F0 align=center><font color=black size=4 face=calibri>1</font></td>
+<td id='TC_LB_CenterQuotePriceManagement_ChargeForCollectionOnDeliveryOperationFeeQuotePrice' width=550 bgcolor=F0F0F0 align=left><font color=black size=3 face=微软雅黑>&emsp;收代收货款操作费报价维护流程</font></td>
+<td width=200 bgcolor=F0F0F0 align=center><font color=black size=3 face=微软雅黑>00:03:03</font></td>
+<td width=200 bgcolor=F0F0F0 align=center><a href='Detail_Report_20170120.html#TC_LB_CenterQuotePriceManagement_ChargeForCollectionOnDeliveryOperationFeeQuotePrice'><font color=blue size=4 face=calibri>link</font></a></td>
+</tr>
+<tr>
+<td width=100 bgcolor=F0F0F0 align=center><font color=black size=4 face=calibri>2</font></td>
+<td id='TC_LB_CenterQuotePriceManagement_PayDeliverWpointPremiumQuotePrice' width=550 bgcolor=F0F0F0 align=left><font color=black size=3 face=微软雅黑>&emsp;付派站保费报价维护流程</font></td>
+<td width=200 bgcolor=F0F0F0 align=center><font color=black size=3 face=微软雅黑>00:03:06</font></td>
+<td width=200 bgcolor=F0F0F0 align=center><a href='Detail_Report_20170120.html#TC_LB_CenterQuotePriceManagement_PayDeliverWpointPremiumQuotePrice'><font color=blue size=4 face=calibri>link</font></a></td>
+</tr>
+</table>
+</tbody>
+<br></br>
+<br></br>
+</body>
+</html>

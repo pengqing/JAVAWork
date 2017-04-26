@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change method &apos;public static void com.heima.Array.Demo_02.printt(int[] arr)&apos; to &apos;public static void printt(int[] arr, Object newParam)&apos;&#x0D;&#x0A;- Original project: &apos;Day13&apos;&#x0D;&#x0A;- Original element: &apos;com.heima.Array.Demo_02.printt(...)&apos;&#x0D;&#x0A;- Added parameters:&#x0D;&#x0A;     Object newParam" default2="null" delegate="false" deprecate="true" description="Change method &apos;printt&apos;" flags="589830" id="org.eclipse.jdt.ui.change.method.signature" input="/src&lt;com.heima.Array{Demo_02.java[Demo_02~printt~\[I" name="printt" parameter1="int[] arr 0 int[] arr false" parameter2="{added} {added} -1 Object newParam false" stamp="1488444753014" version="1.0"/>
+</session>

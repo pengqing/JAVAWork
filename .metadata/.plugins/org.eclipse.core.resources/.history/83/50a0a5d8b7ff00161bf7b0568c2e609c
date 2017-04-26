@@ -1,0 +1,10 @@
+package RegexTest;
+//ÕıÔòÌæ»»
+public class Demo4_replacAll {
+	public static void main(String[] args){
+		String s1="wo12344ai49hei304ma";
+		String regex="\\d";
+		String s2=s1.replaceAll(regex," ");
+		System.out.println(s2);
+	}
+}

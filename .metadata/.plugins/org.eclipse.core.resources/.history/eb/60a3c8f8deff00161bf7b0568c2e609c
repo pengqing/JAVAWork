@@ -1,0 +1,14 @@
+package RegexTest;
+
+public class Demo8_systemSc {
+	public static void main(String[] args){
+		new Demo();
+		System.gc();
+	}
+}
+
+class Demo{
+	public static void fianlize(){
+		System.out.println("Çå³þÀ¬»ø");
+	}
+}

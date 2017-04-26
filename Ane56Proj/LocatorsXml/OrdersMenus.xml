@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrdersMenus>
+<!-- 中心转运单 -->
+	<modifySendWpoint>
+		<!-- 订单编号查询单选框 -->
+		<property name="queryByOrderNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[3]/table/tbody/tr[1]/td[1]/table/tbody/tr/td/table/tbody/tr/td[1]/span/input" />
+		<!-- 订单编号输入框 -->
+		<property name="orderNoInput_tag" value="textarea" />
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button" />
+		<!-- 寄件网点 -->
+		<property name="sendWpoint_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[4]/div[1]/div[3]/table/tbody[2]/tr/td[2]/div/div/input" />
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button" />
+		<!-- 中心转运单成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+	</modifySendWpoint>
+
+<!-- 网点接单 -->
+	<recieveBill>
+		<!-- 订单编号输入框 -->
+		<property name="orderNoInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td/div/table/tbody/tr[2]/td[4]/div/table/tbody/tr/td/table/tbody/tr/td[7]/div/input"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 下拉图标 -->
+		<property name="dropDownBox_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[3]/div[1]/div[3]/table/tbody[2]/tr/td[3]/div/i/i"/>
+		<!-- 接单成功 -->
+		<property name="recieveSuccess_xpath" value="/html/body/div[*]/table/tbody/tr[2]/td[2]"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 网点接单成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+	</recieveBill>
+
+<!-- 网点揽件 -->
+	<collectParcel>
+		<!-- 按订单号查询单选框 -->
+		<property name="queryByOrderNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[3]/div/table/tbody/tr[1]/td/span/input"/>
+		<!-- 订单号输入框 -->
+		<property name="orderNoInput_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 运单号输入框 -->
+		<property name="wayBillInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[4]/div[1]/div[3]/table/tbody[2]/tr/td[3]/div/input"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 网点揽件成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+	</collectParcel>
+	
+<!-- 网点揽件查询 -->
+	<collectParcelQuery>
+		<!-- 按订单号查询单选框 -->
+		<property name="queryByOrderNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[3]/div/table/tbody/tr[1]/td/span/input"/>
+		<!-- 订单号输入框 -->
+		<property name="orderNoInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[3]/div/table/tbody/tr[2]/td[1]/div/textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 查询出的运单状态 -->
+		<property name="waybillStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[4]/div[1]/div[3]/table/tbody[2]/tr/td[5]/div/i/input"/>
+	</collectParcelQuery>
+
+<!-- 揽件转运单 -->
+	<collectParcelTransferWaybill>
+		<!-- 订单号输入框 -->
+		<property name="orderNoInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div/div/div[2]/div/div[3]/div/table/tbody/tr/td/table/tbody/tr/td[15]/input" />
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button" />
+		<!-- 运单号 -->
+		<property name="wayBill_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div/div/div[4]/div[1]/div[3]/table/tbody[2]/tr/td[2]/div/input" />
+		<!-- 是否打印电子子单单选框 -->
+		<property name="ElecZidan_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr[2]/td[5]/div/span/input" />
+		<!-- 目的网点 -->
+		<property name="targetWpoint_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div[1]/div[1]/div/div[1]/table[1]/tbody/tr/td/table/tbody/tr/td[3]/div/div[3]/table/tbody/tr[3]/td[2]/table/tbody/tr/td/table/tbody/tr/td[1]/div/input" />
+		<!-- 实际重量 -->
+		<property name="realWeight_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div[1]/div[1]/div/div[1]/table[2]/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[3]/table/tbody/tr/td/table/tbody/tr/td[3]/div/table/tbody/tr[4]/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/input"/>
+		<!-- 体积 -->
+		<property name="volume_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div[1]/div[1]/div/div[1]/table[2]/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[3]/table/tbody/tr/td/table/tbody/tr/td[3]/div/table/tbody/tr[5]/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/input"/>
+		<!-- 总件数 -->
+		<property name="totalAmount_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div[1]/div[1]/div/div[1]/table[2]/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[3]/table/tbody/tr/td/table/tbody/tr/td[3]/div/table/tbody/tr[5]/td[2]/table/tbody/tr/td/table/tbody/tr/td[3]/input"/>
+		<!-- 保价金额 -->
+		<property name="insurePriceFee_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div[1]/div[1]/div/div[1]/table[2]/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/div/div[3]/table/tbody/tr[2]/td[2]/div/input"/>
+		<!-- 运费 -->
+		<property name="transferFee_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div[1]/div[1]/div/div[1]/table[2]/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/div/div[3]/table/tbody/tr[3]/td[2]/div/input"/>
+		<!-- 返款时效 -->
+		<property name="rebatesTime_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div[1]/div[1]/div/div[1]/table[2]/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[3]/table/tbody/tr[2]/td[4]/div/select"/>
+		<!-- 取消按钮 -->
+		<property name="cancleButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 产品类型 -->
+		<property name="productType_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td[3]/select"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>	
+		<!-- 揽件转运单成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+	</collectParcelTransferWaybill>
+
+<!-- 中心订单撤销 -->
+	<repealOrder>
+		<!-- 订单编号查询单选框 -->
+		<property name="queryByOrderNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/div/div/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/span/input" />
+		<!-- 订单编号输入框 -->
+		<property name="orderNoInput_tag" value="textarea" />
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button" />
+		<!-- 撤销原因 -->
+		<property name="repealReason_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[2]/div/i/input" />
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button" />
+		<!-- 订单最新状态 -->
+		<property name="orderStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[3]/div/span"/>
+	</repealOrder>
+
+</OrdersMenus>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TC_LB_Arbitrament_SecondCenterAuditPass>
+	<issueWaybill>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<useWpoint>西安营业部</useWpoint>
+		<issueAmount>1</issueAmount>
+		<accepter>佟丽娅</accepter>
+		<remark>ForAutoTest</remark>
+	</issueWaybill>
+	
+	<checkWaybill>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</checkWaybill>
+	
+	<sendWpointRecordWaybill>
+		<userName>011471</userName>
+		<password>ne888888</password>
+		<sendStatus>录单：西安营业部</sendStatus>
+	</sendWpointRecordWaybill>
+	
+	<arbitramentDeclaration>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<dutyWpoint>西安营业部</dutyWpoint>
+		<valuableProve>无</valuableProve>
+		<claimAmount>112</claimAmount>
+		<complainantPhone>18512197548</complainantPhone>
+		<complainant>王辉</complainant>
+	</arbitramentDeclaration>
+	
+	<declarationQueryAfterDeclaration>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<declareStatus>已分中心</declareStatus>
+	</declarationQueryAfterDeclaration>
+	
+	<centerAcceptBill>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</centerAcceptBill>
+	
+	<declarationQueryAfterAcceptingBill>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<declareStatus>已接单，处理中</declareStatus>
+	</declarationQueryAfterAcceptingBill>
+	
+	<firstCenterHandle>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<dutyType>网点短少</dutyType>
+		<costAmount>122</costAmount>
+	</firstCenterHandle>
+	
+	<centerAuditNotPass>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</centerAuditNotPass>
+	
+	<secondCenterHandle>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<dutyType>网点短少</dutyType>
+		<costAmount>122</costAmount>
+	</secondCenterHandle>
+	
+	<centerAuditPass>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</centerAuditPass>
+	
+	<arbitramentQuery>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</arbitramentQuery>
+
+</TC_LB_Arbitrament_SecondCenterAuditPass>

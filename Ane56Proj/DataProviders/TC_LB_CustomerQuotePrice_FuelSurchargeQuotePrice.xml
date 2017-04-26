@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TC_LB_CustomerQuotePrice_FuelSurchargeQuotePrice>
+	<fuelSurchargeQuotePriceAdd>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<useGroupName>西安营业部</useGroupName>
+		<serviceWay>派送;自提;</serviceWay>
+		<billingType>重量</billingType>
+		<productType>定时达;标准快运;MiNi小包;</productType>
+		<sendGroupName>刘欢</sendGroupName>
+		<deliverGroupName>广州海珠</deliverGroupName>
+		<startWeight>0</startWeight>
+		<endWeight>9999</endWeight>
+		<startTime>2017-01-05</startTime>
+		<endTime>2017-12-05</endTime>
+		<minimumCost>20</minimumCost>
+		<qoutePrice>50</qoutePrice>
+		<startPrice>20</startPrice>
+		<addWeightPrice>0.5</addWeightPrice>
+	</fuelSurchargeQuotePriceAdd>
+	
+	<quotePriceApproveAfterAdd>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</quotePriceApproveAfterAdd>
+	
+	<fuelSurchargeQuotePriceQueryAfterAdd1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</fuelSurchargeQuotePriceQueryAfterAdd1>
+	
+	<fuelSurchargeQuotePriceQueryAfterAdd2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+	</fuelSurchargeQuotePriceQueryAfterAdd2>
+	
+	<fuelSurchargeQuotePriceQueryAfterAdd3>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</fuelSurchargeQuotePriceQueryAfterAdd3>
+	
+	<fuelSurchargeQuotePriceTesting1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>燃油附加费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</fuelSurchargeQuotePriceTesting1>
+	
+	<fuelSurchargeQuotePriceTesting2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>燃油附加费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2016-12-06</validDate>
+		<volume>2</volume>
+	</fuelSurchargeQuotePriceTesting2>
+	
+	<fuelSurchargeQuotePriceTesting3>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>燃油附加费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>大零担</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</fuelSurchargeQuotePriceTesting3>
+	
+	<fuelSurchargeQuotePriceModify1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<quoteStatus>正常</quoteStatus>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+		<addWeightMoney>0.4</addWeightMoney>
+	</fuelSurchargeQuotePriceModify1>
+	
+	<quotePriceApproveAfterModify1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+	</quotePriceApproveAfterModify1>
+	
+	<fuelSurchargeQuotePriceQueryAfterModify1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+	</fuelSurchargeQuotePriceQueryAfterModify1>
+	
+	<fuelSurchargeQuotePriceQueryAfterModify2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</fuelSurchargeQuotePriceQueryAfterModify2>
+	
+	<fuelSurchargeQuotePriceQueryAfterModify3>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</fuelSurchargeQuotePriceQueryAfterModify3>
+	
+	<fuelSurchargeQuotePriceTesting4>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>燃油附加费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</fuelSurchargeQuotePriceTesting4>
+	
+	<fuelSurchargeQuotePriceModify2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<quoteStatus>暂停</quoteStatus>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+		<addWeightMoney>0.4</addWeightMoney>
+	</fuelSurchargeQuotePriceModify2>
+	
+	<quotePriceApproveAfterModify2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</quotePriceApproveAfterModify2>
+	
+	<fuelSurchargeQuotePriceTesting5>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>燃油附加费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</fuelSurchargeQuotePriceTesting5>
+	
+	<fuelSurchargeQuotePriceDelete>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</fuelSurchargeQuotePriceDelete>
+	
+	<quotePriceApproveAfterDelete>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</quotePriceApproveAfterDelete>
+	
+	<fuelSurchargeQuotePriceQueryAfterDelete1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</fuelSurchargeQuotePriceQueryAfterDelete1>
+	
+	<fuelSurchargeQuotePriceQueryAfterDelete2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</fuelSurchargeQuotePriceQueryAfterDelete2>
+	
+	<fuelSurchargeQuotePriceQueryAfterDelete3>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+	</fuelSurchargeQuotePriceQueryAfterDelete3>
+	
+	<fuelSurchargeQuotePriceTesting6>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>燃油附加费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</fuelSurchargeQuotePriceTesting6>
+
+</TC_LB_CustomerQuotePrice_FuelSurchargeQuotePrice>

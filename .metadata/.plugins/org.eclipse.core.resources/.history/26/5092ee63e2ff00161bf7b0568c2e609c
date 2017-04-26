@@ -1,0 +1,30 @@
+package RegexTest;
+
+public class Demo8_systemSc {
+// Demo1
+//	public static void main(String[] args){
+//		for (int i = 0; i < 5; i++) {
+//			new Demo();
+//			System.gc();//清除系统垃圾
+//		}
+//		System.exit(0);
+//	}
+//}
+//
+//class Demo{
+//	public void finalize(){
+//		System.out.println("清楚垃圾");
+//	}
+	
+	
+//Demo2
+	public static void main(String[] args){
+		long start=System.currentTimeMillis();
+		for (int i = 0; i < 1000;i++) {
+			System.out.println(i+" *");
+		}
+		long end=System.currentTimeMillis();
+		System.out.println(end-start);//获取当前毫秒的值
+	}
+	
+}

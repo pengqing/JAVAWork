@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TC_LB_WaybillManagement_CenterWaybillModifyApprovalNotPass>
+	<issueWaybill>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<useWpoint>西安营业部</useWpoint>
+		<issueAmount>1</issueAmount>
+		<accepter>赵玉荣</accepter>
+		<remark>ForAutoTest</remark>
+	</issueWaybill>
+	
+	<checkWaybill>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</checkWaybill>
+	
+	<sendWpointRecordWaybill>
+		<userName>011471</userName>
+		<password>ne888888</password>
+		<sendStatus>录单：西安营业部</sendStatus>
+	</sendWpointRecordWaybill>
+	
+	<sendWaybillManagement>
+		<userName>011471</userName>
+		<password>ne888888</password>
+		<targetWpoint>广州从化</targetWpoint>
+	</sendWaybillManagement>
+	
+	<wpointWaybillAdjuestConfirm>
+		<userName>0203018</userName>
+		<password>ne888888</password>
+	</wpointWaybillAdjuestConfirm>
+	
+	<centerWaybillModifyApprove>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<approveResult>notPass</approveResult>
+		<assertValue>审核不通过1条数据</assertValue>
+	</centerWaybillModifyApprove>
+	
+	<sendWaybillQuery>
+		<userName>011471</userName>
+		<password>ne888888</password>
+		<targetWpoint>广州海珠</targetWpoint>
+	</sendWaybillQuery>
+
+</TC_LB_WaybillManagement_CenterWaybillModifyApprovalNotPass>

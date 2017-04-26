@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TC_LB_WpointCostApplication_CenterCostAuditPass>
+	<issueWaybill>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<useWpoint>西安营业部</useWpoint>
+		<issueAmount>1</issueAmount>
+		<accepter>佟丽娅</accepter>
+		<remark>ForAutoTest</remark>
+	</issueWaybill>
+	
+	<checkWaybill>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</checkWaybill>
+	
+	<applyForCost>
+		<userName>011471</userName>
+		<password>ne888888</password>
+		<costProject>进仓服务费</costProject>
+		<paymentWPoint>广州海珠</paymentWPoint>
+		<costAmount>100</costAmount>
+	</applyForCost>
+	
+	<queryCostAfterApply>
+		<userName>011471</userName>
+		<password>ne888888</password>
+		<costStatus>已申请</costStatus>
+	</queryCostAfterApply>
+	
+	<rejectCost>
+		<userName>0203018</userName>
+		<password>ne888888</password>
+	</rejectCost>
+	
+	<queryCostAfterReject>
+		<userName>011471</userName>
+		<password>ne888888</password>
+		<costStatus>目的网点驳回</costStatus>
+	</queryCostAfterReject>
+	
+	<appealCost>
+		<userName>011471</userName>
+		<password>ne888888</password>
+	</appealCost>
+	
+	<queryCostAfterAppeal>
+		<userName>011471</userName>
+		<password>ne888888</password>
+		<costStatus>申请网点申诉</costStatus>
+	</queryCostAfterAppeal>
+	
+	<passAppeal>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</passAppeal>
+	
+	<queryTradeInfor>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</queryTradeInfor>
+	
+</TC_LB_WpointCostApplication_CenterCostAuditPass>

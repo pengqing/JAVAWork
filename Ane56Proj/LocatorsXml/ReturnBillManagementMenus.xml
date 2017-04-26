@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReturnBillManagementMenus>
+<!-- 寄方回单查询 -->
+	<sendReturnBillQuery>
+		<!-- 按回单号查询单选框 -->
+		<property name="queryByReturnBill_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr[2]/td/span/input"/>
+		<!-- 回单输入框 -->
+		<property name="returnBillInput_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/button[1]"/>
+		<!-- 查询到的回单状态 -->
+		<property name="returnBillStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[3]/div[1]/div[3]/table/tbody[2]/tr/td[3]/div"/>
+	</sendReturnBillQuery>
+
+<!-- 中心回单查询 -->
+	<centerReturnBillQuery>
+		<!-- 按回单号查询单选框 -->
+		<property name="queryByReturnBill_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr[2]/td/span/input"/>
+		<!-- 回单输入框 -->
+		<property name="returnBillInput_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/button[1]"/>
+		<!-- 查询到的回单状态 -->
+		<property name="returnBillStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[3]/div[1]/div[3]/table/tbody[2]/tr/td[3]/div"/>
+	</centerReturnBillQuery>
+
+</ReturnBillManagementMenus>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TC_LB_CenterQuotePriceManagement_PayDeliverWpointOperationFeeQuotePrice>
+	<payDeliveryWpointOperationFeeQuotePriceAdd>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<useGroupName>直营财务中心</useGroupName>
+		<billingType>金额</billingType>
+		<sendGroupName>西安城西</sendGroupName>
+		<deliveryGroupName>广州海珠</deliveryGroupName>
+		<startWeight>0</startWeight>
+		<endWeight>30</endWeight>
+		<startTime>2016-12-05</startTime>
+		<endTime>2017-12-05</endTime>
+	</payDeliveryWpointOperationFeeQuotePriceAdd>
+	
+	<quotePriceApproveAfterAdd>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</quotePriceApproveAfterAdd>
+	
+	<payDeliveryWpointOperationFeeQuotePriceModify>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<sendGroupName>西安营业部</sendGroupName>
+		<endWeight>35</endWeight>
+	</payDeliveryWpointOperationFeeQuotePriceModify>
+	
+	<quotePriceApproveAfterModify>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</quotePriceApproveAfterModify>
+	
+	<payDeliveryWpointOperationFeeQuotePriceDelete>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</payDeliveryWpointOperationFeeQuotePriceDelete>
+	
+	<quotePriceApproveAfterDelete>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</quotePriceApproveAfterDelete>
+
+</TC_LB_CenterQuotePriceManagement_PayDeliverWpointOperationFeeQuotePrice>

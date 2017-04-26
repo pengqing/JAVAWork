@@ -1,0 +1,25 @@
+package RegexTest;
+
+import java.util.Arrays;
+
+public class Demo4_replacAll {
+	public static void main(String[] args){
+		String starr="11 22 55 77 66";
+		String []arrt=starr.split(" ");
+		int []arr= new int[arrt.length];
+		for (int i = 0; i < arrt.length; i++) {
+			 arr[i]=Integer.parseInt(arrt[i]);
+		}
+		Arrays.sort(arr);
+		StringBuilder sb=new StringBuilder();
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i]==arr.length-1){
+				sb.append(arr[i]);
+			}else{
+				sb.append(arr[i]+" ");
+			}
+			
+		}
+		System.out.println(sb);
+	}
+}

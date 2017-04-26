@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CenterExceptionReport>
+<!-- 异常类型 -->
+	<exceptionType>
+		<!-- 新增按钮 -->
+		<property name="addButton_xpath" value="//button[text()=' 新增']"/>
+		<!-- 异常类型编号输入框 -->
+		<property name="exceptionTypeNo_xpath" value="//span[text()='异常类型编号']/../../following-sibling::td[1]/input"/>
+		<!-- 异常类型名称输入框 -->
+		<property name="exceptionTypeName_xpath" value="//span[text()='异常类型名称']/../../following-sibling::td[1]/input"/>
+		<!-- 所属类型输入框 -->
+		<property name="belongsToType_xpath" value="//span[text()='所属类型']/../../following-sibling::td[1]/div/i/input"/>
+		<!-- 是否图片上传勾选框 -->
+		<property name="whetherUploadPicture_xpath" value="//label[text()='是否图片上传']/../input"/>
+		<!-- 类型描述输入框 -->
+		<property name="typeDescription_tag" value="textarea"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="//button[text()=' 保存']"/>
+		<!-- 保存成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="//span[contains(text(),'成功')]"/>
+		<!-- 确认按钮 -->
+		<property name="affirmButton_xpath" value="//button[text()='确认']"/>
+		<!-- 异常测试 -->
+		<property name="exceptionTest_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div/div[1]/div[1]/div[2]/div/div/div/div/div/table/tbody/tr[11]/td/div"/>
+		<!-- 删除按钮 -->
+		<property name="deleteButton_xpath" value="//button[text()=' 删除']"/>
+	</exceptionType>
+	
+<!-- 异常报备 -->	
+	<exceptionReport>
+		<!-- 新增按钮 -->
+		<property name="addButton_xpath" value="//button[text()=' 新增']"/>
+		<!-- 报备编号 -->
+		<property name="reportNumber_xpath" value="//span[text()='报备编号']/../../following-sibling::td[1]/div/input"/>
+		<!-- 受影响分拨输入框 -->
+		<property name="affectedDistribution_xpath" value="//span[text()='受影响分拨']/../../following-sibling::td[1]/div/input"/>
+		<!-- 报备类型输入框 -->
+		<property name="reportType_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div[1]/table/tbody/tr[3]/td[2]/div/i/input"/>
+		<!-- 预计恢复时间输入框 -->
+		<property name="restoreTime_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div[1]/table/tbody/tr[3]/td[4]/div/i/input"/>
+		<!-- 紧急联系人输入框 -->
+		<property name="emergencyContact_xpath" value="//span[text()='紧急联系人']/../../following-sibling::td[1]/div/input"/>
+		<!-- 联系电话输入框 -->
+		<property name="contactNumber_xpath" value="//span[text()='联系电话']/../../following-sibling::td[1]/div/input"/>
+		<!-- 影响事件描述输入框 -->
+		<property name="eventDescription_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div[2]/textarea"/>
+		<!-- 附件按钮 -->
+		<property name="accessoryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div[2]/div/div/div/div/span/span[3]/form/input"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="//button[text()=' 保存']"/>
+		<!-- 保存成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="//span[contains(text(),'成功')]"/>
+		<!-- 确认按钮 -->
+		<property name="affirmButton_xpath" value="//button[text()='确认']"/>
+	</exceptionReport>
+
+<!-- 异常报备查询 -->
+	<exceptionReportQuery>
+		<!-- 按报备编号查询勾选框 -->
+		<property name="queryByReportNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 报备编号输入框 -->
+		<property name="reportNoInputBox_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="//button[text()=' 查询']"/>
+		<!-- 没有符合条件的数据 -->
+		<property name="queryResult_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div[2]/div[3]/table/tbody[3]/tr/td"/>
+		<!-- 查询出的异常类型 -->
+		<property name="exceptionType_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div[2]/div[3]/table/tbody[2]/tr/td[5]/div"/>
+	</exceptionReportQuery>
+
+<!-- 中心处理 -->
+	<centerHandles>
+		<!-- 按报备编号查询勾选框 -->
+		<property name="queryByReportNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 报备编号输入框 -->
+		<property name="reportNoInputBox_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="//button[text()=' 查询']"/>
+		<!-- 查询出的数据前的勾选框 -->
+		<property name="checkBox_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div[2]/div[3]/table/tbody[2]/tr/td[1]/div/span/input"/>
+		<!-- 中心处理按钮 -->
+		<property name="centerHandlesButton_xpath" value="//button[text()=' 中心处理']"/>
+		<!-- 处理成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="affirmButton_xpath" value="//button[text()='确认']"/>
+	</centerHandles>
+
+</CenterExceptionReport>

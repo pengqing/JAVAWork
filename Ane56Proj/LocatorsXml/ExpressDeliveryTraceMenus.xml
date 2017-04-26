@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExpressDeliveryTraceMenus>
+<!-- 快件跟踪 -->
+	<queryExpressDelivery>
+		<!-- 主单带出子单、回单 -->	
+		<property name="radioButton1_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[1]/div[1]/div[2]/div/table/tbody/tr/td/table/tbody/tr[1]/td/span/input"/>
+		<!-- 包号带出主单 -->
+		<property name="radioButton2_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[1]/div[1]/div[2]/div/table/tbody/tr/td/table/tbody/tr[3]/td/span/input"/>
+		<!-- 展开详细 -->
+		<property name="radioButton3_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[1]/div[1]/div[2]/div/table/tbody/tr/td/table/tbody/tr[5]/td/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="inputField_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="//button[text()='查询']"/>				
+		<!-- 主单寄件状态 -->
+		<property name="sendStatus_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div/table/tbody/tr/td/table/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/span"/>
+		<!-- 主单转运状态 -->
+		<property name="transferStatus_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr/td[5]/table/tbody/tr/td/table/tbody/tr[3]/td/span"/>
+		<!-- 主单派件状态 -->
+		<property name="deliveryStatus_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr/td[7]/table/tbody/tr/td/table/tbody/tr[3]/td/span"/>
+		<!-- 主单签收状态 -->
+		<property name="signStatus_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr/td[9]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span"/>
+		<!-- 回单转运状态 -->
+		<property name="returnBilltransferStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[2]/table/tbody/tr/td/table/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr/td[5]/table/tbody/tr/td/table/tbody/tr[3]/td/span"/>
+	</queryExpressDelivery>
+
+<!-- 添加评论 -->	
+	<addComment>
+		<!-- 评论后面的"+" -->
+		<property name="addButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div[3]/ul/li[10]/div/div/div/span/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr/td[3]/img"/>
+		<!-- 单选框-点赞 -->
+		<property name="agreeButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/div/div[3]/span/span[2]/input"/>
+		<!-- 提交按钮 -->
+		<property name="submitButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr[7]/td/table/tbody/tr/td/table/tbody/tr/td[5]/button"/>
+		<!-- 确认按钮 -->
+		<property name="affirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+		<!-- 评价显示 -->
+		<property name="commentDisplay_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div[3]/ul/li[10]/div/div/div/span/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr/td[1]/span"/>	
+	</addComment>
+	
+<!-- 添加客服记录 -->
+	<queryRegister>
+		<!-- 查询登记按钮 -->
+		<property name="registerButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div[3]/ul/li[11]/div/div/div/span"/>
+		<!-- 来电号码 -->
+		<property name="phoneNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[2]/div[11]/div/div/div/div/table/tbody/tr[1]/td[2]/input"/>
+		<!-- 查询网点/客户 -->
+		<property name="wPoint_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[2]/div[11]/div/div/div/div/table/tbody/tr[1]/td[6]/div/input"/>
+		<!-- 选择受理类型-短少遗失 -->
+		<property name="acceptType_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[2]/div[11]/div/div/div/div/table/tbody/tr[5]/td[2]/i/input"/>
+		<!-- 通知网点 -->
+		<property name="notifyWpoint_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[2]/div[11]/div/div/div/div/table/tbody/tr[5]/td[4]/div/input"/>
+		<!-- 单选框-处理完毕 -->
+		<property name="radioButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[2]/div[11]/div/div/div/div/table/tbody/tr[5]/td[5]/span/input"/>
+		<!-- 查询内容 -->
+		<property name="queryContent_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[2]/div[11]/div/div/div/div/table/tbody/tr[7]/td[2]/textarea"/>
+		<!-- 处理结果 -->
+		<property name="disposeResult_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[2]/div[11]/div/div/div/div/table/tbody/tr[9]/td[2]/textarea"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[2]/div[11]/div/div/div/div/table/tbody/tr[11]/td[2]/button[1]"/>
+		<!-- 确认按钮 -->
+		<property name="affirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+		<!-- 客服记录 -->
+		<property name="keFuRecord_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[4]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div[3]/ul/li[6]/div/div/div/span"/>
+	</queryRegister>
+</ExpressDeliveryTraceMenus>

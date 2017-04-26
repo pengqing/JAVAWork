@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CenterQuotePriceManagementMenus>
+<!-- 中心报价测试 -->
+	<quotePriceTesting>
+		<!-- 费用类型 -->
+		<property name="costType_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td[2]/i/input"/>
+		<!-- 使用网点 -->
+		<property name="useWpoint_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td[4]/div/input" />
+		<!-- 寄件网点 -->
+		<property name="sendWpoint_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[3]/td[2]/div/input" />
+		<!-- 派件网点 -->
+		<property name="deliverWpoint_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[3]/td[4]/div/input" />
+		<!-- 服务方式 -->
+		<property name="serviceWay_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[5]/td[2]/i/input"/>
+		<!-- 产品类型 -->
+		<property name="productType_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[5]/td[4]/i/input" />
+		<!-- 收付类型 -->
+		<property name="cashType_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[7]/td[2]/i/input"/>
+		<!-- 重量 -->
+		<property name="weight_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[7]/td[4]/input" />
+		<!-- 有效日期输入框 -->
+		<property name="validDate_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[9]/td[2]/table/tbody/tr/td/table/tbody/tr/td[1]/i/input"/>
+		<!-- 金额 -->
+		<property name="moneyAmount_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[10]/td[2]/input"/>
+		<!-- 计算按钮 -->
+		<property name="calculateButton_xpath" value="//button[text()='计算']" />
+		<!-- 计算出的具体费用 -->
+		<property name="costValue_xpath" value="//span[@style='color:red;font-size:100px;']"/>		
+	</quotePriceTesting>
+	
+<!-- 到付操作费报价 -->
+	<codOperationFeeQuotePrice>
+	<!-- 新增 -->
+		<!-- 新增按钮 -->
+		<property name="addButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 待审批说明输入框 -->
+		<property name="approveDescInput_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/table/tbody/tr[1]/td/textarea"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/table/tbody/tr[4]/td[2]/button[1]"/>
+		<!-- 报价名称 -->
+		<property name="quotePriceName_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/input"/>
+		<!-- 使用区域编辑按钮 -->
+		<property name="useAreaEditButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[5]/button"/>
+		<!-- 组名称 -->
+		<property name="groupName_xpath" value="/html/body/div[*]/div[3]/div/div/div/div[2]/div[3]/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/input"/>
+		<!-- 子项名称 -->
+		<property name="subitemName_xpath" value="/html/body/div[*]/div[3]/div/div/div/div[4]/div[3]/table/tbody/tr/td[3]/div/input"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/div[1]/div[1]/button[1]"/>
+		<!-- 服务方式查询按钮 -->
+		<property name="serviceWay_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td[1]/table/tbody/tr[3]/td[4]/i/i"/>
+		<!-- 派送勾选框 -->
+		<property name="deliveryCheckBox_xpath" value="/html/body/div[*]/div/div/div/table/tbody[1]/tr[1]/td/div/span"/>
+		<!-- 自提勾选框 -->
+		<property name="arayacakCheckBox_xpath" value="/html/body/div[*]/div/div/div/table/tbody[1]/tr[2]/td/div/span"/>
+		<!-- 计费类型 -->
+		<property name="billingType_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td[1]/table/tbody/tr[3]/td[6]/i/input"/>
+		<!-- 产品类型 -->
+		<property name="productType_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[1]/div[3]/table/tbody/tr/td[1]/table/tbody/tr[5]/td[2]/i/i"/>
+		<!-- 定时达勾选框 -->
+		<property name="timingCheckBox_xpath" value="/html/body/div[*]/div/div/div/table/tbody[1]/tr[1]/td/div/span"/>
+		<!-- 标准快运勾选框 -->
+		<property name="standardCheckBox_xpath" value="/html/body/div[*]/div/div/div/table/tbody[1]/tr[2]/td/div/span"/>
+		<!-- Mini小包勾选框 -->
+		<property name="miniCheckBox_xpath" value="/html/body/div[*]/div/div/div/table/tbody[1]/tr[3]/td/div/span"/>
+		<!-- 寄件区域编辑按钮 -->
+		<property name="sendAreaEditButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[1]/div/div/div[1]/table/tbody[2]/tr[2]/th/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[7]/button"/>
+		<!-- 寄件区域新增按钮 -->
+		<property name="sendAreaAddButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[1]/div/div/div[1]/table/tbody[2]/tr[2]/th/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[5]/button"/>
+		<!-- 派件区域编辑按钮 -->
+		<property name="deliveryAreaGroupName_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[3]/div/div/div[3]/table/tbody[2]/tr/td[2]/table[1]/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 重量区间新增按钮 -->
+		<property name="weightAreaAddButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[3]/div/div/div[1]/table/tbody[2]/tr[2]/th/div/div/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 起始重量 -->
+		<property name="startWeight_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[3]/div/div/div[1]/table/tbody[2]/tr[3]/th[2]/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/input"/>
+		<!-- 结束重量 -->
+		<property name="endWeight_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[3]/div/div/div[1]/table/tbody[2]/tr[3]/th[2]/div/div/table/tbody/tr/td/table/tbody/tr[5]/td/input"/>
+		<!-- 有效区间编辑按钮 -->
+		<property name="validAreaEditButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[3]/div/div/div[3]/table/tbody[2]/tr/td[3]/table/tbody/tr/td/table/tbody/tr/td[7]/button"/>
+		<!-- 有效时间新增按钮 -->
+		<property name="validTimeAddButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[1]/td[2]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 起始时间 -->
+		<property name="startTime_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td[1]/div/i[1]/input"/>
+		<!-- 结束时间 -->
+		<property name="endTime_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td[3]/div/i[1]/input"/>
+		<!-- 暂存按钮 -->
+		<property name="temporaryStoreButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[1]/td[2]/table/tbody/tr/td/table/tbody/tr/td[9]/button"/>
+		<!-- 弹出框关闭按钮 -->
+		<property name="closeButton_xpath" value="//div[text()='包含有效时间']/div"/>
+		<!-- 最低费用 -->
+		<property name="minimumCost_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[3]/div/div/div[3]/table/tbody[2]/tr/td[4]/input"/>
+		<!-- 续重价格 -->
+		<property name="addWeightPrice_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[3]/div/div/div[3]/table/tbody[2]/tr/td[7]/input"/>
+		<!-- 保存按钮 -->
+		<property name="preserveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr/td[9]/button"/>
+		<!-- 保存成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="cfmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+	<!-- 修改&删除 -->
+		<!-- 报价名称 -->
+		<property name="qpName_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[1]/div/div/div[1]/div/div[3]/table/tbody/tr[3]/td[2]/div/input"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 数据勾选框 -->
+		<property name="checkBox_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div[2]/div[1]/div/div/div[3]/div/div[3]/table/tbody[2]/tr/td[1]/div/span/input"/>
+		<!-- 编辑按钮 -->
+		<property name="editButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr/td[5]/button"/>
+		<!-- 删除按钮 -->
+		<property name="deleteButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr/td[7]/button"/>
+		<!-- 确定按钮 -->
+		<property name="affirmButtonFirst_xpath" value="/html/body/div[*]/div[3]/div/div/div/div/table/tbody/tr[4]/td[2]/button[1]"/>
+		<!-- 确认按钮 -->
+		<property name="affirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 删除成功时的提示信息 -->
+		<property name="pInfo_xpath" value="//span[contains(text(),'成功')]"/>
+	</codOperationFeeQuotePrice>
+
+<!-- 报价审批 -->	
+	<quotePriceApprove>
+		<!-- 报价状态 -->
+		<property name="qoutePriceStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div/div[1]/div/div[3]/table/tbody/tr[4]/td[3]/table/tbody/tr/td/table/tbody/tr/td[3]/i/input"/>
+		<!-- 报价名称 -->
+		<property name="quotePriceName_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div/div[1]/div/div[3]/table/tbody/tr[6]/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/input"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 数据勾选框 -->
+		<property name="checkBox_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div/div[2]/div/div[3]/table/tbody[2]/tr/td[1]/div/span/input"/>
+		<!-- 通过按钮 -->
+		<property name="passButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 通过成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="//span[contains(text(),'成功')]"/>
+		<!-- 确认按钮 -->
+		<property name="affirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+	</quotePriceApprove> 
+</CenterQuotePriceManagementMenus>

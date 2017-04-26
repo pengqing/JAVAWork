@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClaimMenus>
+<!-- 网点理赔申报 -->
+	<wpointClaimDeclare>
+		<!-- 新增按钮 -->
+		<property name="addButton_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 运单号输入框 -->
+		<property name="wayBillInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[1]/td[2]/div/input"/>
+		<!-- 索赔金额 -->
+		<property name="claimAmount_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[3]/td[2]/div/input"/>
+		<!-- 索赔联系人 -->
+		<property name="claimant_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[3]/td[4]/div/input"/>
+		<!-- 联系方式 -->
+		<property name="claimantPhone_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[3]/td[6]/div/input"/>
+		<!-- 索赔说明 -->
+		<property name="claimDesc_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[4]/td[2]/textarea"/>
+		<!-- 附件上传按钮 -->
+		<property name="uploadButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[2]/div/div/div/div/span/span[3]/form/input"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[7]/button"/>
+		<!-- 保存成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+	</wpointClaimDeclare>
+
+<!-- 理赔查询 -->
+	<claimQuery>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="wayBillInput_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 查询出的处理状态 -->
+		<property name="handleStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[22]/div"/>
+		<!-- 查询出的审核状态 -->
+		<property name="auditStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[23]/div"/>
+	</claimQuery>
+	
+<!-- 理赔确认 -->
+	<claimConfirm>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="wayBillInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 提交中心单选框 -->
+		<property name="submitCenter_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[1]/div/span/input"/>
+		<!-- 提交保险单选框 -->
+		<property name="submitInsurance_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[2]/div/span/input"/>
+		<!-- 赔付日期单选框 -->
+		<property name="compensateDate_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[3]/div/span/input"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 保存成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+	</claimConfirm>
+	
+<!-- 理赔中心处理 -->
+	<claimCenterHandle>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="wayBillInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 查询出的运单号 -->
+		<property name="wayBill_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/table/tbody/tr/td/table/tbody/tr[3]/td/div/div[1]/div[3]/table/tbody[2]/tr/td[1]/div/input"/>
+		<!-- 中心处理按钮 -->
+		<property name="centerHandleButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 赔付金额 -->
+		<property name="compensateAmount_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[6]/td[2]/div/input"/>
+		<!-- 损失价值 -->
+		<property name="loseValue_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[6]/td[4]/div/input"/>
+		<!-- 是否投保 -->
+		<property name="whetherInsure_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[6]/td[6]/i/input"/>
+		<!-- 货物实际价值 -->
+		<property name="goodsRealValue_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[6]/td[8]/div/input"/>
+		<!-- 处理完成按钮 -->
+		<property name="handleFinishButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div/table/tbody/tr[7]/td/button[2]"/>
+		<!-- 处理完成成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>
+	</claimCenterHandle>
+
+<!-- 理赔审核 -->	
+	<claimAudit>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="wayBillInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 数据选择框 -->
+		<property name="dataChoseBox_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[1]/div/span/input"/>
+		<!-- 审核通过按钮 -->
+		<property name="auditPass_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+	</claimAudit>
+	
+<!-- 理赔监控查询 -->
+	<claimMonitoringQuery>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="wayBillInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 查询出的运单号 -->
+		<property name="wayBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[1]/div/input"/>
+	</claimMonitoringQuery>
+
+</ClaimMenus>

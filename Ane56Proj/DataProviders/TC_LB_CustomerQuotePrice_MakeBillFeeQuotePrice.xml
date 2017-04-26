@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TC_LB_CustomerQuotePrice_MakeBillFeeQuotePrice>
+	<makeBillFeeQuotePriceAdd>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<useGroupName>西安营业部</useGroupName>
+		<serviceWay>派送;自提;</serviceWay>
+		<billingType>重量</billingType>
+		<productType>定时达;标准快运;MiNi小包;</productType>
+		<sendGroupName>刘欢</sendGroupName>
+		<deliverGroupName>广州海珠</deliverGroupName>
+		<startWeight>0</startWeight>
+		<endWeight>9999</endWeight>
+		<startTime>2017-01-05</startTime>
+		<endTime>2017-12-05</endTime>
+		<minimumCost>2</minimumCost>
+		<qoutePrice>80</qoutePrice>
+		<startPrice>2</startPrice>
+		<addWeightPrice>0.05</addWeightPrice>
+	</makeBillFeeQuotePriceAdd>
+	
+	<quotePriceApproveAfterAdd>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</quotePriceApproveAfterAdd>
+	
+	<makeBillFeeQuotePriceQueryAfterAdd1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</makeBillFeeQuotePriceQueryAfterAdd1>
+	
+	<makeBillFeeQuotePriceQueryAfterAdd2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+	</makeBillFeeQuotePriceQueryAfterAdd2>
+	
+	<makeBillFeeQuotePriceQueryAfterAdd3>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</makeBillFeeQuotePriceQueryAfterAdd3>
+	
+	<makeBillFeeQuotePriceTesting1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>制单费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</makeBillFeeQuotePriceTesting1>
+	
+	<makeBillFeeQuotePriceTesting2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>制单费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2016-12-06</validDate>
+		<volume>2</volume>
+	</makeBillFeeQuotePriceTesting2>
+	
+	<makeBillFeeQuotePriceTesting3>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>制单费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>大零担</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</makeBillFeeQuotePriceTesting3>
+	
+	<makeBillFeeQuotePriceModify1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<quoteStatus>正常</quoteStatus>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+		<addWeightMoney>0.08</addWeightMoney>
+	</makeBillFeeQuotePriceModify1>
+	
+	<quotePriceApproveAfterModify1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+	</quotePriceApproveAfterModify1>
+	
+	<makeBillFeeQuotePriceQueryAfterModify1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+	</makeBillFeeQuotePriceQueryAfterModify1>
+	
+	<makeBillFeeQuotePriceQueryAfterModify2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</makeBillFeeQuotePriceQueryAfterModify2>
+	
+	<makeBillFeeQuotePriceQueryAfterModify3>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</makeBillFeeQuotePriceQueryAfterModify3>
+	
+	<makeBillFeeQuotePriceTesting4>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>制单费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</makeBillFeeQuotePriceTesting4>
+	
+	<makeBillFeeQuotePriceModify2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<quoteStatus>暂停</quoteStatus>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+		<addWeightMoney>0.08</addWeightMoney>
+	</makeBillFeeQuotePriceModify2>
+	
+	<quotePriceApproveAfterModify2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</quotePriceApproveAfterModify2>
+	
+	<makeBillFeeQuotePriceTesting5>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>制单费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</makeBillFeeQuotePriceTesting5>
+	
+	<makeBillFeeQuotePriceDelete>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</makeBillFeeQuotePriceDelete>
+	
+	<quotePriceApproveAfterDelete>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</quotePriceApproveAfterDelete>
+	
+	<makeBillFeeQuotePriceQueryAfterDelete1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</makeBillFeeQuotePriceQueryAfterDelete1>
+	
+	<makeBillFeeQuotePriceQueryAfterDelete2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</makeBillFeeQuotePriceQueryAfterDelete2>
+	
+	<makeBillFeeQuotePriceQueryAfterDelete3>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>暂停</qoutePriceStatus>
+	</makeBillFeeQuotePriceQueryAfterDelete3>
+	
+	<makeBillFeeQuotePriceTesting6>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>制单费</costType>
+		<useWpoint>西安营业部</useWpoint>
+		<sendCustomer>刘欢</sendCustomer>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<productType>标准快运</productType>
+		<weight>100</weight>
+		<validDate>2017-01-06</validDate>
+		<volume>2</volume>
+	</makeBillFeeQuotePriceTesting6>
+
+</TC_LB_CustomerQuotePrice_MakeBillFeeQuotePrice>

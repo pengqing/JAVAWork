@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WpointCostApplicationMenus>
+<!-- 费用申请 -->
+	<applyForCost>
+		<!-- 运单编号 -->
+		<property name="wayBillNo_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/div/input"/>
+		<!-- 费用项目 -->
+		<property name="costProject_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr[1]/td[4]/i/input"/>
+		<!-- 付款网点 -->
+		<property name="paymentWPoint_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr[1]/td[6]/div/input"/>
+		<!-- 费用金额 -->
+		<property name="costAmount_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr[1]/td[8]/div/input"/>
+		<!-- 申请说明 -->
+		<property name="applicationDes_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/div/input"/>
+		<!-- 输入申请说明后等待数据加载 -->
+		<property name="waitwayBillNo_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[6]/div[3]/table/tbody[2]/tr/td[2]/div/input"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr/td[11]/button"/>	
+		<!-- 费用申请成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[2]/tbody/tr/td/table/tbody/tr/td/button"/>		
+	</applyForCost>
+
+<!-- 费用查询 -->
+	<queryCost>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="billNoInput_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 最新状态 -->
+		<property name="latestStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div[2]/div/div[3]/table/tbody[2]/tr/td[11]/span"/>
+	</queryCost>
+
+<!-- 费用确认 -->	
+	<confirmCost>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="billNoInput_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 查询出的数据 -->
+		<property name="latestStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[2]"/>		
+		<!-- 确认按钮 -->
+		<property name="confirmButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 最新处理状态-->
+		<property name="handleStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[11]/div/span"/>	
+		<!-- 驳回按钮 -->
+		<property name="rejectButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[5]/button"/>	
+		<!-- 理由输入框 -->
+		<property name="reasonRemark_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[1]/td[2]/div/textarea"/>
+		<!-- 提交按钮 -->
+		<property name="commitButton_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[2]/td/div/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>	
+	</confirmCost>
+		
+<!-- 费用申诉 -->		
+	<appealCost>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 运单号输入框 -->
+		<property name="billNoInput_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 最新状态 -->
+		<property name="latestStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[2]/div/span"/>
+		<!-- 申诉按钮 -->
+		<property name="appealButton1_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[5]/button"/>
+		<!-- 申诉理由输入框 -->
+		<property name="appealReason_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[1]/td[2]/div/textarea"/>
+		<!-- 申诉确认按钮 -->
+		<property name="appealButton2_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[2]/td/div/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 刷新后状态 -->
+		<property name="status_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[11]/div/span"/>
+	</appealCost>
+
+<!-- 中心费用审核 -->	
+	<auditCenterCost>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/span/input"/>
+		<!-- 单号输入框 -->
+		<property name="billNoInput_tag" value="textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 查询出的数据 -->
+		<property name="latestStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[2]/div/span"/>		
+		<!-- 审核按钮 -->
+		<property name="auditButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr/td[5]/button"/>
+		<!-- 通过按钮 -->
+		<property name="passButten_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[2]/td/div/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 最新状态 -->
+		<property name="status_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div[2]/div[1]/div[3]/table/tbody[2]/tr/td[11]/div/span"/>
+		<!-- 不通过按钮 -->
+		<property name="notPassButten_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[2]/td/div/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 理由输入框 -->
+		<property name="appealReason_xpath" value="/html/body/div[*]/div[3]/div/div/div/table/tbody/tr[1]/td[2]/div/textarea"/>	
+	</auditCenterCost>
+
+</WpointCostApplicationMenus>

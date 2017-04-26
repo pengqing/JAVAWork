@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TC_LB_OperationManagement_RewardAndPunishment>
+	<headquartersRPApplication>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<dutyDistribution>西安分拨中心</dutyDistribution>
+		<rpProject>差错罚款</rpProject>
+		<handler>李易峰</handler>
+		<rpType>少货</rpType>
+		<rpCategory>少货</rpCategory>
+	</headquartersRPApplication>
+	
+	<distributionRPHandle>
+		<userName>07472</userName>
+		<password>ne888888</password>
+		<dutyLeader>冯齐</dutyLeader>
+		<dutyPerson1>王辉</dutyPerson1>
+		<dutyPerson2>王晶</dutyPerson2>
+	</distributionRPHandle>
+	
+	<personageRPStatistics>
+		<userName>07472</userName>
+		<password>ne888888</password>
+		<jobNo>018231</jobNo>
+		<rpCost>20.00</rpCost>
+	</personageRPStatistics>
+	
+	<headquartersRPEdit>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<dutyLeader>张勇</dutyLeader>
+	</headquartersRPEdit>
+	
+	<personageRPStatistics1>
+		<userName>07472</userName>
+		<password>ne888888</password>
+		<jobNo>003042</jobNo>
+		<rpCost>20.00</rpCost>
+	</personageRPStatistics1>
+	
+</TC_LB_OperationManagement_RewardAndPunishment>

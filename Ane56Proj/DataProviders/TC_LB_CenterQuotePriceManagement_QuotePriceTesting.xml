@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TC_LB_CenterQuotePriceManagement_QuotePriceTesting>
+	<checkTransferFee>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>收中转费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州天河</deliverWpoint>
+		<weight>100</weight>
+		<moneyAmount>0</moneyAmount>
+	</checkTransferFee>
+	
+	<checkDeliveryFee>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>收寄站派件费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州天河</deliverWpoint>
+		<weight>100</weight>
+		<moneyAmount>0</moneyAmount>
+	</checkDeliveryFee>
+	
+	<checkInsuranceFee>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>收保费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州天河</deliverWpoint>
+		<weight>100</weight>
+		<moneyAmount>5</moneyAmount>
+	</checkInsuranceFee>
+	
+	<checkProcedureFee>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>扣寄站到付款手续费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州天河</deliverWpoint>
+		<weight>100</weight>
+		<moneyAmount>0</moneyAmount>
+	</checkProcedureFee>
+	
+	<checkFuelFee>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>收燃油费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州天河</deliverWpoint>
+		<weight>100</weight>
+		<moneyAmount>0</moneyAmount>
+	</checkFuelFee>
+	
+	<checkRegistrationFee>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>收会务费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州天河</deliverWpoint>
+		<weight>100</weight>
+		<moneyAmount>0</moneyAmount>
+	</checkRegistrationFee>
+	
+	<checkOperationFee>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>收到付操作费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州天河</deliverWpoint>
+		<weight>100</weight>
+		<moneyAmount>0</moneyAmount>
+	</checkOperationFee>
+
+	<checkTotalFee>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</checkTotalFee>
+
+</TC_LB_CenterQuotePriceManagement_QuotePriceTesting>

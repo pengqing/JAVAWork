@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OperationRewardAndPunishMentMenus>
+
+<!-- 总部奖罚申请 -->	
+	<headquartersRewardAndPunishmentApplication>
+		<!-- 差错编号-->
+		<property name="errorNo_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr[1]/td[2]/div/input"/>
+		<!-- 运单编号-->
+		<property name="billNo_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr[1]/td[4]/div/input"/>
+		<!-- 责任分拨-->
+		<property name="dutyDistribution_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr[1]/td[6]/div/input"/>
+		<!-- 奖罚项目-->
+		<property name="rpProject_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr[1]/td[8]/i/input"/>
+		<!-- 处理人-->
+		<property name="handler_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr[1]/td[10]/div/input"/>
+		<!-- 奖罚类型-->
+		<property name="rpType_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr[2]/td[2]/div/input"/>
+		<!-- 奖罚类别-->
+		<property name="rpCategory_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr[2]/td[4]/div/input"/>
+		<!-- 奖罚金额-->
+		<property name="rpCost_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr[2]/td[6]/div/input"/>
+		<!-- 备注内容-->
+		<property name="comment_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div/table/tbody/tr[2]/td[8]/div/input"/>
+		<!-- 数据选中框 -->
+		<property name="checkBox_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[5]/div[3]/table/tbody[2]/tr/td[1]/div/span/input"/>
+		<!-- 保存 -->
+		<property name="saveButton_xpath" value="/html/body/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr/td[11]/button"/>
+		<!--保存成功时的提示信息-->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>	
+ 	</headquartersRewardAndPunishmentApplication>
+ 
+<!-- 分拨奖罚处理 -->
+ 	<distributionRPHandle>
+ 		<!-- 按单号查询单选框 -->
+ 		<property name="queryByBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/span/input"/>
+ 		<!-- 单号输入框 -->
+ 		<property name="waybillInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>	
+		<!-- 查询出的运单号 -->
+		<property name="waybillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[4]/div[3]/table/tbody[2]/tr/td[3]/div/input"/>	
+		<!-- 责任领导 -->
+		<property name="dutyLeader_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[3]/table/tbody/tr[3]/td[2]/div/input"/>	
+		<!-- 责任人1 -->
+		<property name="dutyPerson1_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div/input"/>	
+		<!-- 责任人2 -->
+		<property name="dutyPerson2_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[3]/table/tbody/tr[4]/td[6]/div/input"/>	
+		<!-- 责任人6 -->
+		<property name="dutyPerson6_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[3]/table/tbody/tr[5]/td[10]/div/input"/>	
+		<!-- 查询出的处理状态 -->
+		<property name="handleStatus_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[4]/div[3]/table/tbody[2]/tr/td[13]/div"/>
+		<!-- 数据前的选中框 -->
+		<property name="checkBox_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[4]/div[3]/table/tbody[2]/tr/td[1]/div/span/input"/>	
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>	
+		<!-- 保存成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>	
+ 	</distributionRPHandle>
+ 
+<!-- 个人奖罚统计 -->	
+ 	<personageRPStatistics>
+ 		<!-- 按工号查询选框 -->
+ 		<property name="queryByJobNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/span/input"/>
+ 		<!-- 工号输入框 -->
+ 		<property name="jobNoInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/textarea"/>
+ 		<!-- 查询按钮 -->
+ 		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+ 		<!-- 查询出的奖罚金额 -->
+ 		<property name="rpCost_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/div[3]/table/tbody[2]/tr/td[16]/div"/>
+ 	</personageRPStatistics>
+
+<!-- 总部奖罚编辑 -->	
+	<headquartersRPEdit>
+		<!-- 按单号查询单选框 -->
+		<property name="queryByBillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/span/input"/>	
+		<!-- 单号输入框 -->
+		<property name="billNoInput_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/textarea"/>
+		<!-- 查询按钮 -->
+		<property name="queryButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[1]/button"/>
+		<!-- 查询出的运单号 -->
+		<property name="waybillNo_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[4]/div[3]/table/tbody[2]/tr/td[3]/div/input"/>
+		<!-- 编辑按钮 -->
+		<property name="editButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[3]/button"/>
+		<!-- 责任领导 -->
+		<property name="dutyLeader_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div[3]/table/tbody/tr[3]/td[2]/div/input"/>
+		<!-- 保存按钮 -->
+		<property name="saveButton_xpath" value="/html/body/div[1]/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div/div/div[1]/table/tbody/tr/td/table/tbody/tr/td[5]/button"/>
+		<!-- 保存成功时的提示信息 -->
+		<property name="promptInfo_xpath" value="/html/body/div[*]/div[3]/div/div/div/table[1]/tbody/tr/td/table/tbody/tr/td[5]/div/span"/>	
+	 </headquartersRPEdit>
+	 
+</OperationRewardAndPunishMentMenus>

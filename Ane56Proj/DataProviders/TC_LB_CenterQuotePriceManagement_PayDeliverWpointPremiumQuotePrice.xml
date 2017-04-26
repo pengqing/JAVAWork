@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TC_LB_CenterQuotePriceManagement_PayDeliverWpointPremiumQuotePrice>
+	<payDeliverWpointPremiumQuotePriceAdd>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<useGroupName>直营财务中心</useGroupName>
+		<billingType>金额</billingType>
+		<sendGroupName>西安城西</sendGroupName>
+		<deliveryGroupName>广州海珠</deliveryGroupName>
+		<startWeight>0</startWeight>
+		<endWeight>999</endWeight>
+		<startTime>2016-12-05</startTime>
+		<endTime>2017-12-05</endTime>
+		<minimumCost>5</minimumCost>
+		<addWeightPrice>0.05</addWeightPrice>
+	</payDeliverWpointPremiumQuotePriceAdd>
+
+	<quotePriceApproveAfterAdd>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</quotePriceApproveAfterAdd>
+
+	<quotePriceTesting1>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>付派站保费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<weight>80</weight>
+		<moneyAmount>0</moneyAmount>
+	</quotePriceTesting1>
+
+	<quotePriceTesting2>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>付派站保费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<weight>120</weight>
+		<moneyAmount>0</moneyAmount>
+	</quotePriceTesting2>
+
+	<payDeliverWpointPremiumQuotePriceModify>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<sendGroupName>西安营业部</sendGroupName>
+		<endWeight>9999</endWeight>
+		<addWeightPrice>0.08</addWeightPrice>
+	</payDeliverWpointPremiumQuotePriceModify>
+
+	<quotePriceApproveAfterModify>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>正常</qoutePriceStatus>
+	</quotePriceApproveAfterModify>
+
+	<quotePriceTesting3>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>付派站保费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<weight>100</weight>
+		<moneyAmount>0</moneyAmount>
+	</quotePriceTesting3>
+
+	<payDeliverWpointPremiumQuotePriceDelete>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+	</payDeliverWpointPremiumQuotePriceDelete>
+
+	<quotePriceApproveAfterDelete>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<qoutePriceStatus>作废</qoutePriceStatus>
+	</quotePriceApproveAfterDelete>
+
+	<quotePriceTesting4>
+		<userName>admin</userName>
+		<password>ne88888888</password>
+		<costType>付派站保费</costType>
+		<useWpoint>直营财务中心</useWpoint>
+		<sendWpoint>西安城西</sendWpoint>
+		<deliverWpoint>广州海珠</deliverWpoint>
+		<weight>100</weight>
+		<moneyAmount>0</moneyAmount>
+	</quotePriceTesting4>
+
+</TC_LB_CenterQuotePriceManagement_PayDeliverWpointPremiumQuotePrice>

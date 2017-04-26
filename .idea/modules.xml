@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ane56Proj/Ane56Proj.iml" filepath="$PROJECT_DIR$/Ane56Proj/Ane56Proj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApiProject/ApiProject.iml" filepath="$PROJECT_DIR$/ApiProject/ApiProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoTest/AutoTest.iml" filepath="$PROJECT_DIR$/AutoTest/AutoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeiMa.com/HeiMa.com.iml" filepath="$PROJECT_DIR$/HeiMa.com/HeiMa.com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaTest_50/JavaTest_50.iml" filepath="$PROJECT_DIR$/JavaTest_50/JavaTest_50.iml" />
+    </modules>
+  </component>
+</project>
